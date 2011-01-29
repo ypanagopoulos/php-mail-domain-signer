@@ -1,4 +1,4 @@
-#labels class,manual
+#labels class,manual,Featured
 # mailDomainSigner class documentation
 
 = Class: mailDomainSigner =
