@@ -178,9 +178,6 @@ It Support auto positioning Signed header fields
 	* return: *Signature Headers with/without original data as String/Array depended on $out_sign_header_only parameter*
 
 === Parameters ===
-  * _array_ *$raw`_`headers* Array of Mail Headers
-  * _string_ *$raw`_`body* 	Raw Mail body
-
   * _string_ *$mail_data* Raw Mail Data to be signed
   * _string_ *$suggested_h* Suggested Signed Header Fields, separated by colon ":" Default: string("from:to:subject")
   * _bool_ *$create_dkim* If true, it will generate DKIM-Signature for $mail_data Default: boolean(true)
