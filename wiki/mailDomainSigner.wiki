@@ -1,5 +1,5 @@
+#summary mailDomainSigner class documentation
 #labels class,manual,Featured
-# mailDomainSigner class documentation
 
 = Class: mailDomainSigner =
 
