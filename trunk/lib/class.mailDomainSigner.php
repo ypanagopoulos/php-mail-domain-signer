@@ -430,7 +430,7 @@ class mailDomainSigner{
       $_nh['dkim-signature'] = $this->getDKIM($_hdata,$accepted_headers,$body);
     
     // Now Create Domain-Signature
-    if ($create_dkim)
+    if ($create_domainkey)
       $_nh['domainKey-signature'] = $this->getDomainKey($_hdata,$accepted_headers,$body); 
     
     // Implode $_nh with \r\n
